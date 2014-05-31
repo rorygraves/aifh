@@ -30,7 +30,6 @@ package com.heatonresearch.aifh.examples.capstone.alife.milestone2;
 
 import com.heatonresearch.aifh.examples.capstone.alife.milestone1.DisplayPlant;
 import com.heatonresearch.aifh.examples.capstone.alife.milestone1.PlantUniverse;
-import com.heatonresearch.aifh.randomize.MersenneTwisterGenerateRandom;
 
 import javax.swing.*;
 

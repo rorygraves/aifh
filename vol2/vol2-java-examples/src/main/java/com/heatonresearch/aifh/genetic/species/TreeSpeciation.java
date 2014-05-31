@@ -33,13 +33,6 @@ import com.heatonresearch.aifh.evolutionary.species.ThresholdSpeciation;
 import com.heatonresearch.aifh.genetic.trees.TreeGenome;
 import com.heatonresearch.aifh.genetic.trees.TreeGenomeNode;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 5/7/14
- * Time: 8:07 PM
- * To change this template use File | Settings | File Templates.
- */
 public class TreeSpeciation extends ThresholdSpeciation {
 
     /**

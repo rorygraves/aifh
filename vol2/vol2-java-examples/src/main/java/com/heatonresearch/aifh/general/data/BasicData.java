@@ -143,16 +143,8 @@ public class BasicData {
      * {@inheritDoc}
      */
     public String toString() {
-        final StringBuilder result = new StringBuilder();
-        result.append("[BasicData: input:");
-        result.append(Arrays.toString(this.input));
-        result.append(", ideal:");
-        result.append(Arrays.toString(this.ideal));
-        result.append(", label:");
-        result.append(this.label);
-        result.append("]");
-
-        return result.toString();
+        return "[BasicData: input:" + Arrays.toString(this.input) + ", ideal:" +
+                Arrays.toString(this.ideal) + ", label:" + this.label + "]";
     }
 
     /**

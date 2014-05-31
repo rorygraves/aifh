@@ -31,13 +31,6 @@ package com.heatonresearch.aifh.genetic.trees;
 import com.heatonresearch.aifh.evolutionary.genome.Genome;
 import com.heatonresearch.aifh.evolutionary.genome.GenomeFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 5/4/14
- * Time: 3:41 PM
- * To change this template use File | Settings | File Templates.
- */
 public class TreeGenomeFactory implements GenomeFactory {
 
     private EvaluateTree eval;

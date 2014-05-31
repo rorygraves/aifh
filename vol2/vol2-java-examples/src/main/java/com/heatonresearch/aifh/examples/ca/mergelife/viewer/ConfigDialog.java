@@ -48,13 +48,13 @@ public class ConfigDialog extends JDialog implements ActionListener {
         setTitle("Configuration");
         setSize(640, 480);
 
-        final JPanel pannelButtons = new JPanel();
+        final JPanel panelButtons = new JPanel();
         setLayout(new BorderLayout());
-        pannelButtons.setLayout(new FlowLayout());
-        pannelButtons.add(this.buttonOK = new JButton("OK"));
-        pannelButtons.add(this.buttonDefaults = new JButton("Defaults"));
-        pannelButtons.add(this.buttonCancel = new JButton("Cancel"));
-        add(pannelButtons, BorderLayout.SOUTH);
+        panelButtons.setLayout(new FlowLayout());
+        panelButtons.add(this.buttonOK = new JButton("OK"));
+        panelButtons.add(this.buttonDefaults = new JButton("Defaults"));
+        panelButtons.add(this.buttonCancel = new JButton("Cancel"));
+        add(panelButtons, BorderLayout.SOUTH);
 
         final JPanel panelContent = new JPanel();
         panelContent.setLayout(new GridLayout(5, 2));

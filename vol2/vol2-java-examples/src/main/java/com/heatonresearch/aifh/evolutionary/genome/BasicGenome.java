@@ -141,12 +141,7 @@ public abstract class BasicGenome implements Genome, Serializable {
      */
     @Override
     public String toString() {
-        final StringBuilder builder = new StringBuilder();
-        builder.append("[");
-        builder.append(this.getClass().getSimpleName());
-        builder.append(": score=");
-        builder.append(getScore());
-        return builder.toString();
+        return "[" + this.getClass().getSimpleName() + ": score=" + getScore();
     }
 
     /**

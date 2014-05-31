@@ -36,7 +36,7 @@ public class AIFHError extends Error {
     /**
      * Wrap a throwable.
      *
-     * @param t The throable.
+     * @param t The throwable.
      */
     public AIFHError(final Throwable t) {
         super(t);

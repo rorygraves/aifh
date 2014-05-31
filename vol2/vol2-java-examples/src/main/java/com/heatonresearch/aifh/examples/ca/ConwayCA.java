@@ -150,10 +150,8 @@ public class ConwayCA extends JFrame implements ActionListener, WindowListener, 
                     int nCol = col + neighborsX[i];
                     int nRow = row + neighborsY[i];
                     if (nCol >= 0 && nCol < this.worldArea.getCols()) {
-                        if (nRow >= 0 && nRow < this.worldArea.getRows()) {
-                            if (grid[nRow][nCol]) {
-                                total++;
-                            }
+                        if (nRow >= 0 && nRow < this.worldArea.getRows() && grid[nRow][nCol]) {
+                            total++;
                         }
                     }
                 }

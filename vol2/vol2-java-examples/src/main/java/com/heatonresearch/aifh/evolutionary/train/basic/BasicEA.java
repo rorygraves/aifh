@@ -261,12 +261,8 @@ public class BasicEA implements EvolutionaryAlgorithm, LearningMethod, Serializa
                 // don't readd the old best genome, it was already added
                 if (genome != this.oldBestGenome) {
 
-                    if (isValidationMode()) {
-                        if (this.newPopulation.contains(genome)) {
-                            throw new AIFHError(
-                                    "Genome already added to population: "
-                                            + genome.toString());
-                        }
+                    if (isValidationMode() && this.newPopulation.contains(genome)) {
+                        throw new AIFHError("Genome already added to population: " + genome.toString());
                     }
 
                     this.newPopulation.add(genome);

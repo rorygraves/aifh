@@ -33,13 +33,6 @@ import com.heatonresearch.aifh.evolutionary.opp.EvolutionaryOperator;
 import com.heatonresearch.aifh.evolutionary.train.EvolutionaryAlgorithm;
 import com.heatonresearch.aifh.randomize.GenerateRandom;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 5/5/14
- * Time: 10:10 AM
- * To change this template use File | Settings | File Templates.
- */
 public class MutateTree implements EvolutionaryOperator {
     private EvolutionaryAlgorithm owner;
     private int maxGraftLength;

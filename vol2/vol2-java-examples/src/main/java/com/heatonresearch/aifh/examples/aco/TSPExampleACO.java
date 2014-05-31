@@ -32,13 +32,6 @@ import com.heatonresearch.aifh.aco.CostGraph;
 import com.heatonresearch.aifh.aco.DiscreteACO;
 import com.heatonresearch.aifh.examples.ga.tsp.City;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 5/7/14
- * Time: 4:14 AM
- * To change this template use File | Settings | File Templates.
- */
 public class TSPExampleACO implements CostGraph {
     /**
      * The number of cities to visit.

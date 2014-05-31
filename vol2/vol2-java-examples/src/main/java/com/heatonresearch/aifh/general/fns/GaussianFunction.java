@@ -31,7 +31,7 @@ package com.heatonresearch.aifh.general.fns;
 /**
  * The Gaussian function is a Radial Basis Function that describes the typical "bell curve", or "normal distribution".
  * <p/>
- * The Gaussian function requires paramaters that specify the width (over all dimensions), as well as the
+ * The Gaussian function requires parameters that specify the width (over all dimensions), as well as the
  * centers of each dimension.  So a 3d Gaussian would have the parameters lined up as follows:
  * <p/>
  * params[0] = width (of all dimensions),

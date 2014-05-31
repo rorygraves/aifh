@@ -59,12 +59,12 @@ public class Flock2dWindow extends JFrame implements Runnable, ComponentListener
     /**
      * The number of particles.
      */
-    private final int PARTICLE_COUNT = 100;
+    private final static int PARTICLE_COUNT = 100;
 
     /**
      * The size of each particle.
      */
-    private final double PARTICLE_SIZE = 10;
+    private final static double PARTICLE_SIZE = 10;
 
     /**
      * The particles.

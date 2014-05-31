@@ -32,13 +32,6 @@ import com.heatonresearch.aifh.evolutionary.codec.GeneticCODEC;
 import com.heatonresearch.aifh.evolutionary.genome.Genome;
 import com.heatonresearch.aifh.genetic.genome.DoubleArrayGenome;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 4/21/14
- * Time: 5:52 AM
- * To change this template use File | Settings | File Templates.
- */
 public class RBFNetworkGenomeCODEC implements GeneticCODEC {
 
     public int getInputCount() {

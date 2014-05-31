@@ -28,13 +28,6 @@
  */
 package com.heatonresearch.aifh.genetic.trees;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 5/5/14
- * Time: 10:41 AM
- * To change this template use File | Settings | File Templates.
- */
 public class RandomNodeResult {
     private TreeGenomeNode parent;
     private TreeGenomeNode child;

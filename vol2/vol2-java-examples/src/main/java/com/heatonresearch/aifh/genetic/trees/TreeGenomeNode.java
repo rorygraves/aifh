@@ -31,13 +31,6 @@ package com.heatonresearch.aifh.genetic.trees;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 4/25/14
- * Time: 7:07 AM
- * To change this template use File | Settings | File Templates.
- */
 public class TreeGenomeNode {
     private List<TreeGenomeNode> children = new ArrayList<TreeGenomeNode>();
     private int opcode;

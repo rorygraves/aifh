@@ -280,21 +280,9 @@ public class BasicSpecies implements Serializable, Species {
      */
     @Override
     public String toString() {
-        final StringBuilder result = new StringBuilder();
-        result.append("[BasicSpecies: score=");
-        result.append(getBestScore());
-        result.append(", members=");
-        result.append(this.members.size());
-        result.append(", age=");
-        result.append(this.age);
-        result.append(", no_improv=");
-        result.append(this.gensNoImprovement);
-        result.append(", share=");
-        result.append(this.offspringShare);
-        result.append(", offspring count=");
-        result.append(this.offspringShare);
-        result.append("]");
-        return result.toString();
+        return "[BasicSpecies: score=" + getBestScore() + ", members=" + this.members.size() +
+                ", age=" + this.age + ", no_improv=" + this.gensNoImprovement + ", share=" +
+                this.offspringShare + ", offspring count=" + this.offspringShare + "]";
     }
 
 }

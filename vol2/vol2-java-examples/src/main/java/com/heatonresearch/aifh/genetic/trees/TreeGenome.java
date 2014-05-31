@@ -33,13 +33,6 @@ import com.heatonresearch.aifh.evolutionary.genome.BasicGenome;
 import com.heatonresearch.aifh.evolutionary.genome.Genome;
 import com.heatonresearch.aifh.learning.RegressionAlgorithm;
 
-/**
- * Created with IntelliJ IDEA.
- * User: jheaton
- * Date: 4/25/14
- * Time: 7:07 AM
- * To change this template use File | Settings | File Templates.
- */
 public class TreeGenome extends BasicGenome implements RegressionAlgorithm {
 
     private EvaluateTree evaluator;

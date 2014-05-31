@@ -84,6 +84,6 @@ public class PlantScore implements ScoreFunction {
      */
     @Override
     public boolean shouldMinimize() {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 }
